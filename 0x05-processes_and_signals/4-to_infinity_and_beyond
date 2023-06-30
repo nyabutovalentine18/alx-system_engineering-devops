@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 #displays to infinity and beyond
 
-n=0
-while [ $n -lt 1 ]
+while true
 do
 echo "To infinity and beyond"
 sleep 2
-(( i-- ))
 done
